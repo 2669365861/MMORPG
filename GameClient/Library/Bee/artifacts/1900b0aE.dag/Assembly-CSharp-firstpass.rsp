@@ -327,10 +327,11 @@
 -r:"D:/AllUnity/2021.3.16f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"F:/MyFile/GameFramework/GameDesigner/GameDesigner/Network/Library/dnlib.dll"
 -r:"F:/MyFile/GameFramework/GameDesigner/GameDesigner/Network/Library/System.Runtime.CompilerServices.Unsafe.dll"
--r:"G:/2023AllUnityProject/TestProject/GDNetTest/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"G:/2023AllUnityProject/TestProject/GDNetTest/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"G:/2023AllUnityProject/TestProject/GDNetTest/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"F:/StudyProject/MMORPG/GameClient/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"F:/StudyProject/MMORPG/GameClient/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"F:/StudyProject/MMORPG/GameClient/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/GameDesignerInUnity.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/ParrelSync.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniTask.Addressables.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniTask.DOTween.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniTask.Linq.ref.dll"
@@ -392,6 +393,7 @@
 "Assets/Plugins/GameDesigner/Network/Gcp/Server/TcpServerIOCP.cs"
 "Assets/Plugins/GameDesigner/Network/Gcp/Server/UdpServer.cs"
 "Assets/Plugins/GameDesigner/Network/Gcp/Server/UdpServerIOCP.cs"
+"Assets/Plugins/GameDesigner/ParrelSync/Examples/CustomArgumentExample.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

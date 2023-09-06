@@ -1,0 +1,15 @@
+[2023-09-06 10:27:35][Log] 服务器开始运行...
+[2023-09-06 10:27:35][Log] 服务器启动成功!
+[2023-09-06 10:27:40][Log] [玩家ID: 用户ID:10000 IP:127.0.0.1:3090 场景ID: 登录:False]连接服务器!
+[2023-09-06 10:28:03][Error] System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 Game.GameDB.ConfigAdd(ConfigType type) 位置 F:\StudyProject\MMORPG\GameClient\Assets\Scripts\Data\DBExt\GameDBExt.cs:行号 56
+   在 GameServer.Service.Register(Player client, String account, String password) 位置 F:\StudyProject\MMORPG\GameServer\Service.cs:行号 30
+   在 GameServer.Service.OnUnClientRequest(Player unClient, RPCModel model) 位置 F:\StudyProject\MMORPG\GameServer\Service.cs:行号 14
+   在 Net.Server.ServerBase`2.DataHandler(Player client, RPCModel model, ISegment segment) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\core\Server\ServerBase.cs:行号 1258
+   在 Net.Server.ServerBase`2.DataHandler(Player client, ISegment buffer) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\core\Server\ServerBase.cs:行号 1122
+   在 Net.Server.ServerBase`2.DataCRCHandler(Player client, ISegment buffer, Boolean isTcp) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\core\Server\ServerBase.cs:行号 1093
+   在 Net.Server.ServerBase`2.ResolveBuffer(Player client, ISegment& buffer) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\core\Server\ServerBase.cs:行号 1183
+   在 Net.Server.TcpServer`2.ResolveDataQueue(Player client, Boolean& isSleep, UInt32 tick) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\Gcp~\Server\TcpServer.cs:行号 130
+   在 Net.Server.ServerBase`2.NetworkProcessing(Object obj) 位置 F:\MyFile\GameFramework\GameDesigner\GameDesigner\Network\core\Server\ServerBase.cs:行号 915
