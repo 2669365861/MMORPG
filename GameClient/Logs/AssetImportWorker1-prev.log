@@ -11,13 +11,13 @@ D:\AllUnity\2021.3.16f1c1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-G:/2023AllUnityProject/TestProject/GDNetTest
+F:/StudyProject/MMORPG/GameClient
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-7519
-Successfully changed project path to: G:/2023AllUnityProject/TestProject/GDNetTest
-G:/2023AllUnityProject/TestProject/GDNetTest
+1805
+Successfully changed project path to: F:/StudyProject/MMORPG/GameClient
+F:/StudyProject/MMORPG/GameClient
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ G:/2023AllUnityProject/TestProject/GDNetTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9088] Host "[IP] 192.168.2.207 [Port] 0 [Flags] 2 [Guid] 457883222 [EditorId] 457883222 [Version] 1048832 [Id] WindowsEditor(7,YS-Coy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31452] Host "[IP] 192.168.2.207 [Port] 0 [Flags] 2 [Guid] 1206217723 [EditorId] 1206217723 [Version] 1048832 [Id] WindowsEditor(7,YS-Coy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9088] Host "[IP] 192.168.2.207 [Port] 0 [Flags] 2 [Guid] 457883222 [EditorId] 457883222 [Version] 1048832 [Id] WindowsEditor(7,YS-Coy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31452] Host "[IP] 192.168.2.207 [Port] 0 [Flags] 2 [Guid] 1206217723 [EditorId] 1206217723 [Version] 1048832 [Id] WindowsEditor(7,YS-Coy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 62.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1c1 (56dbfdd6697f)
 [Subsystems] Discovering subsystems at path D:/AllUnity/2021.3.16f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/2023AllUnityProject/TestProject/GDNetTest/Assets
+[Subsystems] Discovering subsystems at path F:/StudyProject/MMORPG/GameClient/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,211 +68,96 @@ Initialize mono
 Mono path[0] = 'D:/AllUnity/2021.3.16f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/AllUnity/2021.3.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/AllUnity/2021.3.16f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/AllUnity/2021.3.16f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/AllUnity/2021.3.16f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/AllUnity/2021.3.16f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003163 seconds.
+Registered in 0.004720 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.482 seconds
+- Completed reload, in  0.517 seconds
 Domain Reload Profiling:
-	ReloadAssembly (482ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (346ms)
+		EndReloadAssembly (384ms)
 			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (205ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012284 seconds.
+Registered in 0.007932 seconds.
+Android Extension - Scanning For ADB Devices 4644 ms
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\StudyProject\MMORPG\GameClient\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\StudyProject\MMORPG\GameClient\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  2.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (2539ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (2072ms)
+			LoadAssemblies (1374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (396ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (113.5 KB). Loaded Objects now: 4364.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 2.552600 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.207900 ms  DeleteObjects: 0.074200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008779 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (724ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (248ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (296ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.9 KB). Loaded Objects now: 4367.
-Memory consumption went from 139.8 MB to 139.8 MB.
-Total: 2.500500 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.176900 ms  DeleteObjects: 0.052300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009994 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\2023AllUnityProject\TestProject\GDNetTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3899 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.8 KB). Loaded Objects now: 4370.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.716600 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.334200 ms  DeleteObjects: 0.098500 ms)
+Unloading 3953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (113.5 KB). Loaded Objects now: 4416.
+Memory consumption went from 145.2 MB to 145.1 MB.
+Total: 2.760100 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.104000 ms MarkObjects: 2.333400 ms  DeleteObjects: 0.106200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -285,6 +170,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008958 seconds.
+Received Import Request.
+  Time since last request: 264136.345163 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame05.prefab
+  artifactKey: Guid(722fd7f7566ac41af95e6226926f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame05.prefab using Guid(722fd7f7566ac41af95e6226926f8ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ec5defc801a78603a3151a1ae5a8e') in 0.241830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame07-Group.prefab
+  artifactKey: Guid(2e67ee3b133a7442d9aca37896578155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame07-Group.prefab using Guid(2e67ee3b133a7442d9aca37896578155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137737ca7601acdd41601058fc551dbe') in 0.397364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square07.prefab
+  artifactKey: Guid(51b1270fbdf4e41ad9469e3c1dcb8b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square07.prefab using Guid(51b1270fbdf4e41ad9469e3c1dcb8b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1415477c4e1f22eac699388f473c92a2') in 0.707401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square08.prefab
+  artifactKey: Guid(bbe555a8410da44eaa16d327c4fe582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square08.prefab using Guid(bbe555a8410da44eaa16d327c4fe582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a0ab0a03bc39f88bc508db121a7659') in 0.036920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame03-Group-.prefab
+  artifactKey: Guid(1077aa3e225bc4ee1a11738fa96f538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ItemFrame03-Group-.prefab using Guid(1077aa3e225bc4ee1a11738fa96f538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49947ea738cffd394b67e7b7259fe99') in 0.743581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_CardFrame02-Group-.prefab
+  artifactKey: Guid(f5beb515fbc434fd8ae1776e322c3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_CardFrame02-Group-.prefab using Guid(f5beb515fbc434fd8ae1776e322c3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbc1c8d6c72fe51c55872ebb32d71d2') in 0.170019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_CardFrame04-Group-.prefab
+  artifactKey: Guid(26bbf832391254e1984ee0a4f534b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_CardFrame04-Group-.prefab using Guid(26bbf832391254e1984ee0a4f534b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238d966691ca5f3ab232e37083138b8') in 0.504610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame02-Group.prefab
+  artifactKey: Guid(d4db0a55c92024622b9cbd02f0952cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame02-Group.prefab using Guid(d4db0a55c92024622b9cbd02f0952cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d667f946789a56ac7a784c4b2598b1') in 0.488660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame03.prefab
+  artifactKey: Guid(3650c8fa124cf49b39977cf06e8b46ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame03.prefab using Guid(3650c8fa124cf49b39977cf06e8b46ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5104687fc19abe6be570848cdc093e93') in 0.083413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame01_Base.prefab
+  artifactKey: Guid(2f1868e7be6e9499ebabec0e8f18ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame01_Base.prefab using Guid(2f1868e7be6e9499ebabec0e8f18ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173fe92517a370bc2b07421b12180535') in 0.014656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame11-Group-.prefab
+  artifactKey: Guid(5b6c3024679094e2e9ed95e9f1703d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame11-Group-.prefab using Guid(5b6c3024679094e2e9ed95e9f1703d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee66992f2ddb5d734eccb101785f687') in 0.219052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame01_LIne.prefab
+  artifactKey: Guid(5abe67b5d9c9f4d5ab2a34c19f623f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_TableFrame01_LIne.prefab using Guid(5abe67b5d9c9f4d5ab2a34c19f623f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6812585c49a4f1eba5552ca41105661') in 0.181807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame14-Group-.prefab
+  artifactKey: Guid(5414655c76fde4949a414286e5616185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame14-Group-.prefab using Guid(5414655c76fde4949a414286e5616185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4401504b0a6fe66ae7d8233401572ad7') in 0.536074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_UserPictureFrame.prefab
+  artifactKey: Guid(261516a91db4f4eaf817a6c04de52d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_UserPictureFrame.prefab using Guid(261516a91db4f4eaf817a6c04de52d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a79a80d7dbfa406c3a5ff0d9134f25') in 0.201119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square06.prefab
+  artifactKey: Guid(2a9b39cd47e954cd5a96a94967bae11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_BasicFrame_Square06.prefab using Guid(2a9b39cd47e954cd5a96a94967bae11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ee498b5edb27b2294235ac211250e1') in 0.130004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame06-Group.prefab
+  artifactKey: Guid(d36a44009e01e49c681fabbefd71a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Casual Game/Prefabs/Prefabs_Component_Frames/Frame_ListFrame06-Group.prefab using Guid(d36a44009e01e49c681fabbefd71a65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c21a51d9fcdadab78d37893f5bf1de') in 0.362292 seconds 

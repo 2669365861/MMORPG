@@ -28,6 +28,9 @@ namespace GameServer
                 case ProtoType.Nick:
                     SetNick(client, model.AsString);
                     break;
+                case ProtoType.Login://避免请求已经进入服务器，但是客户端超时的情况
+                    Login(client, model.AsString, model.AsString);
+                    break;
             }
         }
 

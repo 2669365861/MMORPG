@@ -17,6 +17,7 @@ namespace GameServer
             ThreadManager.Invoke("MysqlExecuted", 1f, GameDB.I.Executed, true);
 
             var service = new Service();
+            service.AddAdapter(new Net.Adapter.SerializeAdapter3());//添加极速序列化适配器，就有刚才测试的性能
             service.Start(9543);
 
             while (true)

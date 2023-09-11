@@ -387,6 +387,17 @@
 "Assets/Plugins/GameDesigner/Component/Editor/NetworkTransformEdit.cs"
 "Assets/Plugins/GameDesigner/Component/Editor/NetworkTransformMultiEdit.cs"
 "Assets/Plugins/GameDesigner/Component/Editor/SyncVariableDrawer.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/BlueprintGUILayout.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/BlueprintSetting.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/GraphEditor.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/ObjectNameTools.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/PluginSettings.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/ScriptTools.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/StateBehaviourInspector.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/StateMachineEditor.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/StateMachineSetting.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/StateMachineWindow.cs"
+"Assets/Plugins/GameDesigner/StateMachine/Editor/StateManagerEditor.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

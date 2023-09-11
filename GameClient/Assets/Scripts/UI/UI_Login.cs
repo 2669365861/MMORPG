@@ -1,6 +1,7 @@
 using Cysharp.Threading.Tasks;
 using Net.Client;
 using Net.Component;
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,21 @@ public class UI_Login : SingleCase<UI_Login>
     void Start()
     {
         loginBtn.onClick.AddListener(() => _ = OnLoginClick());
+        registerBtn.onClick.AddListener(OnRegisterClick); 
+        closeBtn.onClick.AddListener(OnCloseClick);
+    }
+
+    private void OnCloseClick()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        Application.Quit();
+    }
+
+    private void OnRegisterClick()
+    {
+        UI_Register.Show();
     }
 
     private async UniTaskVoid OnLoginClick()
@@ -21,13 +37,13 @@ public class UI_Login : SingleCase<UI_Login>
         var pass = password.text;
         if (acc.Length == 0 | pass.Length == 0)
         {
-            Debug.LogError("«Î ‰»Î’À∫≈ªÚ’ﬂ√‹¬Î!");
+            UI_Message.Show("«Î ‰»Î’À∫≈ªÚ’ﬂ√‹¬Î!");
             return;
         }
         var task = await ClientBase.Instance.Call((ushort)ProtoType.Login,acc,pass);
         if (!task.IsCompleted)
         {
-            Debug.LogError("µ«¬Ω≥¨ ±!");
+            UI_Message.Show("µ«¬Ω≥¨ ±!");
             return;
         }
         var code = task.model.AsInt;
@@ -35,10 +51,10 @@ public class UI_Login : SingleCase<UI_Login>
         switch (code)
         {
             case -2:
-                Debug.Log("’À∫≈≤ª¥Ê‘⁄!");
+                UI_Message.Show("’À∫≈≤ª¥Ê‘⁄!");
                 break;
             case -1:
-                Debug.Log("√‹¬Î¥ÌŒÛ!");
+                UI_Message.Show("√‹¬Î¥ÌŒÛ!");
                 break;
             case 0:
                 Debug.Log("µ«¬º≥…π¶!");

@@ -22,13 +22,13 @@ public class UI_Nick : SingleCase<UI_Nick>
         var text = inputNick.text;
         if (text.Length == 0)
         {
-            Debug.Log("请输入正确的昵称!");
+            UI_Message.Show("请输入正确的昵称!");
             return;
         }
         var task = await ClientBase.Instance.Call((ushort)ProtoType.Nick, text);
         if (!task.IsCompleted)
         {
-            Debug.LogError("请求超时!");
+            UI_Message.Show("请求超时!");
             return;
         }
         var code = task.model.AsInt;
@@ -41,7 +41,7 @@ public class UI_Nick : SingleCase<UI_Nick>
             UI_Main.Show();
         }
         else {
-            Debug.Log("未知错误!");
+            UI_Message.Show("未知错误!");
         }
     }
 }

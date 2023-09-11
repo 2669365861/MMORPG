@@ -774,3 +774,14 @@ F:\StudyProject\MMORPG\GameClient\obj\Debug\Assembly-CSharp.csproj.CoreCompileIn
 F:\StudyProject\MMORPG\GameClient\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 F:\StudyProject\MMORPG\GameClient\obj\Debug\Assembly-CSharp.dll
 F:\StudyProject\MMORPG\GameClient\obj\Debug\Assembly-CSharp.pdb
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\nunit.framework.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.VisualScripting.IonicZip.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.VisualScripting.YamlDotNet.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.VisualScripting.TextureAssets.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.Plastic.Newtonsoft.Json.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\unityplastic.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.Plastic.Antlr3.Runtime.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Mono.Posix.dll
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\ParrelSync.pdb
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.VisualScripting.IonicZip.xml
+F:\StudyProject\MMORPG\GameClient\Temp\Bin\Debug\Unity.VisualScripting.YamlDotNet.xml
